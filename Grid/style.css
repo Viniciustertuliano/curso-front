@@ -1,0 +1,73 @@
+#principal{
+  display: grid;
+
+  /*grid-template-areas: "cabecalho  cabecalho"
+                       "menu       menu"
+                       "conteudo   aside"
+                       "rodape     rodape";*/
+
+grid-template-rows: repeat(5, 50px);
+grid-template-columns: repeat(5, 1fr);
+
+grid-column-gap: 5px;
+grid-row-gap: 5px;
+
+transition: all 1s;
+}
+
+
+
+.cabecalho{
+  background-color: brown;
+  /*grid-area: cabecalho;*/
+
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 6;
+
+  /*align-self: stretch;
+  justify-self: stretch*/
+
+  /*place-self: center;*/
+}
+
+.menu{
+  background-color: blueviolet;
+  /*grid-area: menu;*/
+
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.conteudo{
+  background-color: chartreuse;
+  /*grid-area: conteudo;*/
+
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.conteudo-secundario{
+  background-color: cadetblue;
+  /*grid-area: aside;*/
+
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.rodape{
+  background-color: gold;
+  /*grid-area: rodape;*/
+
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
