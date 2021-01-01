@@ -1,0 +1,118 @@
+#navegation > ul > li{
+    display: inline-block;
+}
+
+#navegation > ul > li > a{
+    text-decoration: none;
+    color: #6066f2;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 5px;
+    transition: all .5 ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#navegation > ul > li > a:hover{
+    color: #8a378d;
+    border-bottom: 1px dotted #8a378d;
+    border-top: 1px dotted #8a378d;
+    padding: 10px 15px;
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    border-radius: 23px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    color: #FFF;
+    border: none;
+    background-color: #fa891f;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.button > img {
+    height: 20px;
+    vertical-align: middle;
+}
+
+.button:hover{
+  background-color: #8a378d;
+}
+
+#article > span{
+    width: 444px;
+    height: 343;
+    opacity: 0.35;
+    font-size: 288px;
+    font-weight: bold;
+    letter-spacing: 80px;
+    text-align: center;
+    color: #dbdbdb;
+    position: absolute;
+    z-index: -1;
+    margin-top: 90px;
+}
+
+#article > h1{
+    width: 504px;
+    height: 183;
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    color: #488cf5;
+    margin-top: 130px;
+}
+
+#article > h2{
+    width: 512.4;
+    height: 90.7;
+    font-size: 18;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #adadad;
+}
+
+.send-message{
+    width: 504px;
+    height: 51px;
+    border-radius: 26px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #FFF;
+}
+
+.send-message > i > img{
+    padding-left: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.send-message input{
+    padding: 16px 10px;
+    border: none;
+    width: 353px;
+}
+
+.send-message button{
+    width: 80px;
+    height: 45px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    background-color: #488cf5;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+
+.send-message button:hover{
+    background-color: #fa891f;
+}
