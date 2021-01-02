@@ -71,7 +71,7 @@
 }
 
 #article > h2{
-    width: 512.4;
+    width: 455px;
     height: 90.7;
     font-size: 18;
     letter-spacing: 0.5px;
@@ -86,6 +86,7 @@
     box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
     -webkit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
     background-color: #FFF;
+    margin-top: 50px;
 }
 
 .send-message > i > img{
@@ -102,7 +103,8 @@
 
 .send-message button{
     width: 80px;
-    height: 45px;
+    height: 40px;
+    margin-top: 5px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     background-color: #488cf5;
