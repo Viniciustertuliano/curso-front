@@ -1,4 +1,16 @@
-/*Tools
-Aqui é onde vamos colocar e criar nossos mixins ou 
-funções para a construção dos nossos estilos e layouts.
-*/
+@media only screen and (max-width: 550px){
+    #branch{
+        margin-left: 15px;
+    }
+    #bag, #login{
+        display: none;
+    }
+    #picture > img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        opacity: 0.5;
+    }
+
+}
