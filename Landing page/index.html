@@ -29,8 +29,12 @@
           <li><a href="#">Galeria</a></li>
           <li><a href="#">Informações</a></li>
           <li><a href="#">Suporte</a></li>
+          <li class="item-menu-responsive"><a href="#">Login</a></li>
+          <li class="item-menu-responsive"><a href="#">Sacola</a></li>
         </ul>
       </nav>
+
+      <div class="menu-toggle"><img src="img/menu.png" alt="menu"></div>
 
         <button id="bag" class="button">Sacola <img src="img/shopping-cart.png" alt="Sacola"></button>
         <button id="login" class="button">Login<img src="img/user.png" alt="Pessoa"></button>
@@ -56,6 +60,16 @@
         <small>&copy; Desenvolvimento Frontend.</small>
     </footer>
   </section>
+
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script>
+    $(Document).ready(function(){
+      $('.menu-toggle').click(function() {
+        $('nav').toggleClass('active')
+      })
+    })
+  </script>
+  
 </body>
 
 </html>
